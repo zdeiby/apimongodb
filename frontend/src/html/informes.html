@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/informes.css">
+	<title>Informes</title>
+</head>
+
+<body>
+	<div class="div_menu">
+		<ul>
+			<dt><a href="operaciones.html">Inicio</a></dt>
+			<dt><a href="informes.html">Informes</a></dt>
+			<dt><a href="mensualidades.html">Mensualidades</a></dt>
+			<dt><a href="configuracion.html">Configuracion</a></dt>
+			<dt><a href="https://wa.link/1qgsou">Soporte Tecnico</a></dt>
+		</ul>
+	</div>
+
+	<div id="div_titulo">
+		<label class="label_informes">INFORMES</label>
+	</div>
+	<div>
+		<div><img  src="../img/logo.png" class="logoempresa"  id="logo"></div>
+	</div>
+
+	<div id="div_imagen">
+		<img src="../img/moto.png" id="moto">
+	</div>
+
+	<div id="div_imagen">
+		<div><img src="../img/carro logo.png" id="carro">
+		</div>
+	</div>
+
+	<div id="div_consulta_informes">
+		<div id="operativo_informes">
+			<label id="label_busqueda">BUSQUEDA POR:</label>
+			<select class="select">
+				<option>PLACA</option>
+				<option>FECHA</option>
+				<option>MENSUALIDADES</option>
+
+
+			</select>
+			<input type="date" class="entrada_fecha" id="input_fecha" align-items: center required size="10px">
+			<input type="text" class=" entrada" id="input_placa" align-items: center required>
+			<button class="buttonSalida" type="submit" id="buton_buscar">BUSCAR</button>
+		</div>
+	</div>
+
+	<div id="div_resumen">
+
+		<div id="tabla_busqueda">
+			<style>
+				#tabla_busqueda {
+				border: 3px solid #000;
+				position: relative;
+				text-align: center;
+				margin-top: 386px;
+				margin-left: 300px;
+				overflow-y: scroll;
+				top: -370px;
+				display: inline-block;
+				width: 1150px;
+				height: 490px;
+				border-radius: 10px;
+				}
+				th {
+					width: 20%;
+					border: 2px solid #000;
+					box-sizing: content-box;
+					font-size: 30px;
+					padding: px;
+				}
+
+				td {
+					width: 22%;
+					border: 2px solid #000;
+					box-sizing: content-box;
+					font-weight: 30px;
+					font-size: 20px;
+				}
+			</style>
+			<table>
+				<tbody class="table" id="table"></tbody>
+				<tr>
+					<th>ID</th>
+					<th>placa</th>
+					<th>hora entrada</th>
+					<th>hora salida</th>
+					<th>valor pagado</th>
+					<th>Estado</th>
+				</tr>
+			
+</tbody>
+			</table>
+		</div>
+		<div id="div_imprimir_informe">
+
+		</div>
+
+		
+	</div>
+
+	<script src="../js/informes.js"></script>
+
+	<div class="container"></div>
+</body>
+
+</html>

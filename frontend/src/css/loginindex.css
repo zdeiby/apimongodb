@@ -1,0 +1,129 @@
+
+
+
+
+#div_principal {
+ 
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+#div_contenedor {
+    position: absolute;
+    display: inline;
+    background-color: yellow;
+    margin-left: 400px;
+    width: 400px;
+    height: 400px;
+    border-top-right-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+
+    
+}
+
+#label_titulo {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+#label_identi {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#label_input {
+  
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    
+}
+#label_contrasena {
+  
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+#error {
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.errorColor{
+    color: yellow;
+}
+.on{
+    color:black
+}
+
+#label_id {
+    margin-left: 30px;
+    display: inline-flex;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+#button_ingresar {
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+    margin-left: 150px;
+ 
+    width: 120px;
+    height: 60px;
+    border: 1px solid;
+}
+#button_ingresar:hover {
+background-color: rgb(173, 170, 165);
+
+}
+input {
+
+border-radius: 10px;
+border: 1px solid;
+width: 180px;
+height: 30px;
+font-size: 20px;
+
+
+}
+input:hover {
+
+    background-color: rgb(228, 225, 225);
+}
+label{
+    font-size: 20px;
+}
+
+#div_logo {
+    margin-top: -200px;
+}
+
+#logoE {
+    width: 400px;
+    height: 400px;
+    margin-top: 200px;
+    margin-right: 400px;
+    border-top-left-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+    
+}
+.container_mensajes {
+    
+    width: 300px;
+    height: 20px;
+    z-index: 1;
+    display: flex;
+    position: relative;
+    margin-top: 340px;
+    margin-left: 50px;
+    
+     
+}
+

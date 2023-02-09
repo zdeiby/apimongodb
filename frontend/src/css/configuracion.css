@@ -1,0 +1,366 @@
+#div_titulo {
+
+	background-color: yellow;
+	width: 700px;
+	height: 80px;
+	margin-left: 450px;
+	margin-top: 10px;
+	border: 3px solid;
+	display: inline-flex;
+	border-radius: 20px;
+	opacity: 0.6;
+	font-size: 60px;
+	font-size-adjust: auto;
+	padding-left: 70px;
+	align-content: center;
+
+}
+
+#item_menu:hover {
+	font-size: 30px;
+}
+
+.container1 {
+	margin-left: 310px;
+	margin-top: 20px;
+	display: flex;
+	background-color: yellow;
+	height: 610px;
+	width: 1130px;
+	border: 2px solid;
+	opacity: 0.6;
+	border-radius: 20px;
+}
+
+.link_configuracion1 {
+	font-size: 20px;
+	margin-right: 60px;
+	background-color: blue;
+}
+
+#link_configuracion2 {
+	margin-right: 60px;
+	float: inline-start;
+}
+
+#link_configuracion3 {
+	margin-right: 60px;
+	display: flex;
+}
+
+#link_configuracion4 {
+	margin-right: 60px;
+}
+
+#link_configuracion5 {
+	margin-right: 0px;
+}
+
+#a_menu {
+	font-size: 25px;
+	display: flex;
+
+}
+
+#a_menu:hover {
+	font-size: 20px;
+	display: flex;
+}
+
+#logo {
+	display: flex;
+	position: absolute;
+	width: 230px;
+	height: 120px;
+	margin-left: 30px;
+	margin-top: -96px;
+	border: 1px solid;
+	border-radius: 20px;
+}
+
+#div_menu {
+	background-color: yellow;
+	width: 240px;
+	height: 700px;
+	position: absolute;
+	border: 3px solid;
+	border-radius: 20px;
+	margin-top: 150px;
+	opacity: 0.6;
+	text-align: center;
+
+}
+
+.div_menu_confi {
+	background-color: yellow;
+	width: 1150px;
+	height: 76px;
+	position: relative;
+	margin-left: 300px;
+	margin-top: -185px;
+	border: 3px solid;
+	opacity: 0.6;
+	border-radius: 20px;
+}
+
+.div_imagen {
+	width: 10px;
+	padding-left: 1500px;
+}
+
+#div_imagen {
+	width: 10px;
+	padding-left: 1500px;
+}
+
+#carro {
+	border: 3px solid rgb(14, 14, 14);
+	border-radius: 20px;
+	margin-top: 10px;
+	width: 180px;
+	height: 100px;
+
+}
+
+#moto {
+
+	border: 3px solid black;
+	border-radius: 20px;
+	margin-top: 10px;
+	width: 180px;
+	height: 100px;
+}
+
+.moto:hover {
+
+	border: 3px solid yellow;
+	margin: 12px solid;
+	opacity: 0.4;
+}
+
+.carro:hover {
+
+	border: 3px solid yellow;
+	margin: 12px solid;
+	opacity: 0.4;
+}
+
+.carro:active {
+	border: 3px solid rgb(5, 187, 96);
+}
+
+.moto:active {
+	border: 3px solid rgb(5, 187, 96);
+}
+
+#a_menu {
+	float: left;
+	margin: 30px;
+	margin-top: 2px;
+}
+
+#div_menu_confi {
+	background-color: yellow;
+}
+
+#ul_menu_confi {
+	display: flex;
+	height: 15px;
+	margin-top: -55px;
+}
+
+#div_resumen {
+	background-color: yellow;
+	width: 1150px;
+	height: 600px;
+	position: relative;
+	margin-left: 300px;
+	opacity: 0.6;
+	margin-top: 16px;
+	border: 3px solid;
+	border-radius: 20px;
+
+}
+
+a {
+	font-size: 28px;
+	margin-top: 80px;
+	display: flex;
+}
+
+dt {
+	margin: 0px auto;
+}
+
+select {
+	margin: 50px auto;
+	font-size: 33px;
+	border: 2px solid;
+	width: 250px;
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-right: 5px;
+	border-radius: 10px;
+	position: relative;
+}
+
+dt {
+	margin: 0px auto;
+}
+
+#ul_menu {
+
+	padding: 10px;
+	margin: -20px auto;
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+}
+#label1 {
+	position: relative;
+}
+label {
+	font-size: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+
+
+button {
+	font-size: 25px;
+	display: block;
+	margin: 20px;
+}
+
+h2 {
+	font-size: 39px;
+	align-content: center;
+	display: flex;
+	margin-left: 325px;
+}
+h3 {
+
+	font-size: 30px;
+	margin-left:50px ;
+}
+input {
+	margin-left: 30px;
+	font-size: 30px;
+	width: 250px;
+	margin-bottom: 10px;
+}
+
+#containercrear {
+	
+	z-index: 1;
+	width: 700px;
+	height: 450px;
+	position: relative;
+	display:flex;
+	
+	
+	margin-left: 400px;
+	margin-top: -250px;
+
+}
+#containertarifas {
+	border: 2px solid;
+	z-index: 1;
+	width: 500px;
+	height: 450px;
+	position: relative;
+	display: flex;
+	align-self: center;
+	margin-left: 500px;
+	margin-top: -450px;
+	flex-direction: column;
+
+}
+
+
+
+button {
+	font-size: 25px;
+	display: block;
+	margin: 20px;
+}
+
+h2 {
+	font-size: 39px;
+	align-content: center;
+	display: flex;
+	margin-left: 325px;
+}
+
+#tabla_crear {
+	background-color: blueviolet;
+	width: 300px;
+	height: 600px;
+	margin-left: 500px;
+	z-index: 1;
+}
+th {
+	width: 20%;
+	border: 2px solid #000;   
+	box-sizing: content-box;
+	font-size: 30px;
+	padding: px;
+	
+	}
+
+td {
+	width: 22%;
+	border: 2px solid #000;
+	box-sizing: content-box;
+	font-weight: 30px;
+	font-size: 20px;
+	
+	
+	}
+	#div_historico {
+		background-color: white;
+		border: 2px solid;
+		display:block;
+		width: 750px;
+		height: 450px;
+		margin-left: 10px;
+		margin-top: 10px;
+		border-radius: 20px;
+		}
+		#tabla {
+
+			border: 3px solid #000;
+			text-align: center;
+			margin-top:100px;
+			margin-left: -400px;
+			overflow-y: scroll;
+			display: inline-block;
+			width: 550px;
+			height: 372px;
+			
+			width: 704px;
+			/* position: absolute; */
+			/* z-index: 2; */
+			/* left: 60px; */
+			/* top: 3em; */
+			position: absolute;
+			z-index: 3;
+			left: 20em;
+			top: -25px;
+			opacity: 0.9;
+			}
+
+			.editar {
+				margin-left: 2px;
+				font-size: 18px;
+				width: 75px;
+				height: 31px;
+				margin-bottom: 14px;
+				margin-right: 10px;
+			}
+
+			.color{
+				background-color: white;
+			}

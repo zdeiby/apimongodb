@@ -1,0 +1,218 @@
+body {
+
+	width: 10000px;
+	height: 1000px;
+}
+
+#div_titulo {
+	background-color: yellow;
+	width: 700px;
+	height: 80px;
+	margin-left: 450px;
+	margin-top: 10px;
+	border: 3px solid;
+	display: inline-block;
+	border-radius: 20px;
+	opacity: 0.6;
+	font-size: 60px;
+	font-size-adjust: auto;
+	padding-left: 70px;
+	align-content: center;
+}
+#logo {
+	display: flex;
+	position: absolute;
+	width: 230px;
+	height: 120px;
+	margin-left: 30px;
+	margin-top: -96px;
+	border: 1px solid;
+	border-radius: 20px;
+}
+
+.label_informes {
+	font-size: 70px;
+	margin-left: 140px;
+}
+
+#div_consulta_informes {
+	background-color: yellow;
+	width: 1150px;
+	height: 200px;
+	position: relative;
+	margin-left: 300px;
+	margin-top: -185px;
+	border: 3px solid;
+	opacity: 0.6;
+	border-radius: 20px;
+}
+
+#label_fecha {
+	font-size: 50px;
+	position: relative;
+	display: flex;
+	margin-left: 90px;
+}
+
+th {
+	width: 20%;
+	border: 2px solid #000;
+	box-sizing: content-box;
+	font-size: 30px;
+	padding: px;
+}
+
+td {
+	width: 22%;
+	border: 2px solid #000;
+	box-sizing: content-box;
+	font-weight: 30px;
+	font-size: 20px;
+}
+
+#tabla_busqueda {
+	border: 3px solid #000;
+	position: relative;
+	text-align: center;
+	margin-top: 386px;
+	margin-left: 300px;
+	overflow-y: scroll;
+	top: -370px;
+	display: inline-block;
+	width: 1150px;
+	height: 490px;
+	border-radius: 10px;
+}
+
+#input_fecha {
+	font-style: bold;
+	width: 250px;
+	height: 40px;
+	margin-left: 50px;
+	font-size: 50px;
+	text-transform: uppercase;
+	margin-top: 8px;
+
+}
+
+#buton_buscar {
+	position: relative;
+	width: 150px;
+	height: 50px;
+	margin-left: 10px;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+#buton_buscar:hover {
+	background-color: gray;
+}
+
+.div_imagen {
+	width: 10px;
+	padding-left: 1500px;
+}
+
+#div_imagen {
+	width: 10px;
+	padding-left: 1500px;
+}
+
+#carro {
+	border: 3px solid rgb(14, 14, 14);
+	border-radius: 20px;
+	margin-top: 10px;
+	width: 180px;
+	height: 100px;
+}
+
+#moto {
+	border: 3px solid black;
+	border-radius: 20px;
+	margin-top: 10px;
+	width: 180px;
+	height: 100px;
+}
+
+.div_menu {
+	background-color: yellow;
+	width: 240px;
+	height: 700px;
+	position: absolute;
+	border: 3px solid;
+	border-radius: 20px;
+	margin-top: 150px;
+	opacity: 0.6;
+	text-align: center;
+}
+
+#div_imprimir_informe {
+	font-size: 26px;
+	height: 53px;
+	position: absolute;
+	margin-top: -350px;
+	margin-left: 600px;
+	border-radius: 20px;
+	padding-left: 50px;
+	padding-right: 48px;
+}
+
+.entrada_fecha {
+	width: 230px;
+	height: 20px;
+	font-size: 30px;
+	padding: 10px;
+}
+
+a {
+	font-size: 28px;
+	margin-top: 80px;
+	display: flex;
+}
+
+ul {
+	padding: 10px;
+	margin: -20px auto;
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+dt {
+	margin: 0px auto;
+}
+
+#boton_imprimir_informe {
+	font-size: 31px;
+	margin-left: 670px;
+}
+select {
+
+	margin: 50px auto;
+	font-size: 33px;
+	border: 2px solid;
+	width: 250px;
+	margin-left: 20px;
+	margin-top: 5px;
+	margin-right: 5px;
+	border-radius: 10px;
+	position: relative;
+}
+#input_placa {
+	font-style: bold;
+	width: 250px;
+	height: 40px;
+	margin-left: 50px;
+	font-size: 50px;
+	text-transform: uppercase;
+
+}
+#label_busqueda{
+
+	font-size: 30px;
+    height: 47px;
+    width: 252px;
+    display: flex;
+    margin-top: 8px;
+    margin-left: 17px
+}

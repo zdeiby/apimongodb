@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/configuracion.css">
+	<link rel="stylesheet" href="../css/loginindex.css">
+	<title>Configuracion</title>
+</head>
+
+<body>
+
+	<div class="cargar">
+
+	</div>
+
+	<script>
+
+		let html=` <div class="div_menu" id="div_menu">
+		<ul id="ul_menu">
+			<dt><a href="operaciones.html" id="item_menu">Inicio</a></dt>
+			<dt><a href="informes.html" id="item_menu">Informes</a></dt>
+			<dt><a href="mensualidades.html" id="item_menu">Mensualidades</a></dt>
+			<dt><a href="configuracion.html" id="item_menu">Configuracion</a></dt>
+			<dt><a href="https://wa.link/1qgsou" id="item_menu">Soporte Tecnico</a></dt>
+		</ul>
+	</div>
+
+	<div class="div_titulo" id="div_titulo">
+		CONFIGURACION
+	</div>
+
+	<div>
+		<div><img src="../img/logo.png" class="logoempresa" id="logo"></div>
+	</div>
+	<div class="div_imagen" id="div_imagen">
+		<img src="../img/moto.png" class="moto" id="moto">
+	</div>
+
+	<div class="div_imagen" id="div_imagen">
+		<div><img src="../img/carro logo.png" class="carro" id="carro"></div>
+	</div>
+
+	<div class="div_menu_confi" id="div_menu_confi">
+		<nav>
+
+			<ul id="ul_menu_confi">
+				<dt id="item_menu"><a href="#" class="link_tarifa" id="link_configuracion">Tarifas</a></dt>
+				<dt id="item_menu"><a href="#" class="link_usuarios" id="link_configuracion1">Usuarios</a></dt>
+				<dt id="item_menu"><a href="#" class="link_impresoras" id="link_configuracion2">Impresoras</a></dt>
+				<dt id="item_menu"><a href="#" class="link_factura" id="link_configuracion3">Factura</a></dt>
+				<dt id="item_menu"><a href="#" class="link_red" id="item_menu">Red</a></dt>
+
+
+			</ul>
+		</nav>
+
+	</div>
+
+
+	<div class="container1" id="div_resumen">
+
+		
+	</div>
+`
+const cargar=document.querySelector(".cargar")
+
+try{
+	let datos=window.localStorage.getItem("activo")
+	
+	const div=document.createElement("DIV")
+	if(datos == 'activo'){
+		div.innerHTML=html
+		cargar.appendChild(div)
+	}else{
+		cargar.innerHTML=`  <div id="div_principal">
+    <div id="div_logo">
+        <img  src="../img/logo.png" class="logoempresa"  id="logoE">    
+    </div>
+
+
+    <div class="container_login" id="div_contenedor">
+
+        <h1 id="label_titulo">No estas autorizado</h1>
+
+        
+    
+    </div>
+
+ 
+</div>`
+	}
+} catch(e){
+	console.log('')
+}
+
+
+
+	</script>
+	
+
+
+	<script src="../js/configuracion.js"></script>
+
+	<!--IMPRIMIR-->
+	<script language="Javascript">
+		function imprSelec(nombre) {
+			var ficha = document.getElementById(nombre);
+			var ventimp = window.open(' ', 'popimpr');
+			ventimp.document.write(ficha.innerHTML);
+			ventimp.document.close();
+			ventimp.print();
+			ventimp.close();
+		}
+	</script>
+	<!--END IMPRIMIR-->
+
+</body>
+
+</html>
